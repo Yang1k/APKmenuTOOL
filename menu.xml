@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu name="安卓右键工具v1.0" icon="icon\logo.png">
+  <menu name="复制路径" icon="icon\copypath.png" tag="copypath"/>
+  <menu name="jadx查看源码" icon="icon\dex2jar.png" tag="view_java"/>
+  <menu name="jd-gui查看源码" icon="icon\dex2jar.png" tag="jd-gui"/>
+  <menu name="Manifest 》TXT | AXML 》TXT" icon="icon\m2txt.png" tag="axml2txt"/>
+  <menu name="查看apk/aab信息" icon="icon\apkinfo.png" tag="viewapk"/>
+  <menu name="查看签名信息" icon="icon\signinfo.png" tag="viewsign"/>
+  <menu name="debug签名(apksigner)" tag="sign" icon="icon\sign.png"/>
+  <menu name="配置文件签名(apksigner)" tag="config_sign" icon="icon\sign.png"/>
+  <menu name="配置文件签名(jarsigner)" tag="jar_sign" icon="icon\sign.png"/>
+  <menu name="安装运行（卸载安装）apk/aab" icon="icon\install.png" tag="installd"/>
+  <menu name="安装自动授权" icon="icon\install.png" tag="installp"/>
+  <menu name="安装运行（替换安装）apk/aab" icon="icon\install.png" tag="installr"/>
+  <menu name="卸载apk/aab" icon="icon\uninstall.png" tag="uninstall"/>
+  <menu name="反编译" icon="icon\decom.png" tag="baksmali"/>
+  <menu name="回编译" icon="icon\build.png" tag="smali"/>
+  <menu name="aab转apk" icon="icon\build.png" tag="aab2apk"/>
+  <menu name="性能评估" icon="icon\plug.png">
+	  <menu name="首次启动时间" icon="icon\plug.png" tag="cold_boot_time"/>
+	  <menu name="再次启动时间" icon="icon\plug.png" tag="boot_time"/>
+	  <menu name="直接启动时间(不安装)" icon="icon\plug.png" tag="direct_boot_time"/>
+	  <menu name="内存占用" icon="icon\plug.png" tag="meminfo"/>
+	  <menu name="CPU消耗" icon="icon\plug.png" tag="cpuinfo"/>
+  </menu>
+  <menu name="其他" icon="icon\detect.png">
+      <menu name="dex2jar" icon="icon\detect.png" tag="dex2jar"/>
+	  <menu name="jar2dex" icon="icon\detect.png" tag="jar2dex"/>
+	  <menu name="查壳" icon="icon\detect.png" tag="viewwrapper"/>
+	  <menu name="手机信息" icon="icon\phone.png" tag="phone"/>
+	  <menu name="手机截图" icon="icon\photo.png" tag="photo"/>
+	  <menu name="提取图标" icon="icon\extracticon.png" tag="icon"/>
+	  <menu name="lib规范性检查" icon="icon\so.png" tag="checklib"/>
+	  <menu name="zipalign优化" icon="icon\align.png" tag="zipalign"/>
+	  <menu name="修复APK/ZIP" icon="icon\build.png" tag="fixapk"/>
+	  <menu name="修复AXML" icon="icon\build.png" tag="fixaxml"/>
+	  <menu name="一键脱壳" icon="icon\decom.png" tag="unpack"/>
+	  <menu name="修复dex" icon="icon\decom.png" tag="fixdex"/>
+  </menu>
+  <menu name="关于" icon="icon\about.png" tag="about"/>
+</menu>
